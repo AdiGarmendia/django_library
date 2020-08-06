@@ -1,3 +1,5 @@
+-- DELETE FROM libraryapp_library;
+
 INSERT INTO libraryapp_library
 (title, address)
 VALUES
@@ -12,3 +14,8 @@ INSERT INTO libraryapp_book
 (title, isbn, year_published, location_id, author, librarian_id)
 VALUES
 ('Taiko', '04275747474873', 2001, 1, 'Eiji Yoshikawa', 1);
+
+INSERT INTO libraryapp_library
+(title, address)
+VALUES
+('Donelson Library', '400 Main Street');

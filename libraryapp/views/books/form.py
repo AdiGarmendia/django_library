@@ -5,8 +5,7 @@ from libraryapp.models import Book
 from libraryapp.models import Library
 # from libraryapp.models import model_factory
 from ..connection import Connection
-from libraryapp.views.books.details import get_book
-
+from ..helpers.get_book import get_book
 
 def get_libraries():
     with sqlite3.connect(Connection.db_path) as conn:
