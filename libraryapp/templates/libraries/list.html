@@ -12,9 +12,8 @@
     {% for library in all_libraries %}
         <li>
            
-           {{ library.title }}
-          {% comment %} <a href="{% url 'libraryapp:library' library.id %}"> {{ library.title }} </a>
-          at {{ library.address }}  {% endcomment %}
+          <a href="{% url 'libraryapp:library' library.id %}"> {{ library.title }} </a>
+          at {{ library.address }}
         </li>
             
         </li>

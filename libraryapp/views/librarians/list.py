@@ -35,7 +35,7 @@ def list_librarians(request):
 
             all_librarians.append(lib)
 
-    template_name = 'librarians/librarians.html'
+    template_name = 'librarians/list.html'
 
     context = {
         'all_librarians': all_librarians

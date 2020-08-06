@@ -6,3 +6,5 @@ from .home import home
 from .libraries.list import library_list
 from .libraries.form import library_form
 from .books.details import book_details
+from .libraries.details import library_details
+from .librarians.details import librarian_details
